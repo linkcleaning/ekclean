@@ -1,0 +1,24 @@
+{
+  "id": "./",
+  "name": "이케이클린 — 뽀송한 공간, 포근한 일상",
+  "short_name": "이케이클린",
+  "description": "제주 여성기업 이케이클린의 입주·이사·상가·준공·쓰레기집청소 안내와 상담 준비 앱",
+  "lang": "ko",
+  "dir": "ltr",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#faf7ef",
+  "theme_color": "#faf7ef",
+  "prefer_related_applications": false,
+  "icons": [
+    { "src": "./icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "./icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "./icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "청소 서비스 보기", "short_name": "청소 서비스", "url": "./#services" },
+    { "name": "이케이클린 소개", "short_name": "회사 소개", "url": "./about.html" }
+  ]
+}
