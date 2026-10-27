@@ -1,0 +1,77 @@
+/* Short service summaries and compact lower-page navigation. */
+.services .service-card{min-width:0}
+.services .service-card h3{max-width:none}
+.services .service-desc{max-width:none;margin:8px 0 16px}
+.services .service-button{min-height:46px;font-size:14px}
+.promise--compact{padding:20px 0}
+.promise--compact .promise-items{justify-content:center;gap:30px}
+.promise--compact .promise-item{flex-direction:row;font-size:13px;gap:7px;min-width:0}
+.compact-links{padding:44px 0 38px}
+.compact-links .about-layout{grid-template-columns:repeat(2,minmax(0,1fr));gap:20px;align-items:stretch}
+.compact-links .about-teaser,.compact-links .journal-card{min-width:0;display:flex;flex-direction:column;align-items:flex-start;padding:24px;background:#fffdf8;border:1px solid #d4dbc6;border-radius:18px;box-shadow:3px 4px 0 #e3e8d7;transform:none}
+.compact-links .journal-card:hover{transform:none;box-shadow:3px 4px 0 #e3e8d7}
+.compact-link-icon{margin:4px 0 18px}
+.compact-links .naver-mark{width:35px;height:35px;font-size:23px}
+.compact-links h3{font-size:23px;font-weight:800;line-height:1.5;letter-spacing:-.7px}
+.compact-links .about-copy,.compact-links .journal-description{font-size:14px;line-height:1.75;margin:8px 0 18px}
+.compact-links .btn{width:100%;min-height:46px;margin-top:auto;padding:11px 14px;font-size:14px;justify-content:space-between;gap:8px;box-shadow:2px 3px 0 #b6c5a2}
+.compact-links .btn svg{width:16px;height:16px;margin-left:0}
+.compact-footer{padding-top:24px}
+.compact-footer .footer-info{margin-top:10px}
+.compact-footer .footer-bottom{margin-top:15px;padding-top:12px}
+
+@media(max-width:767px),(max-width:1023px) and (pointer:coarse){
+  html{scroll-padding-bottom:calc(90px + env(safe-area-inset-bottom))}
+  .services{padding:34px 0 28px}
+  .services .section-heading{margin-bottom:22px}
+  .services .section-title{font-size:26px;line-height:1.4}
+  .services .section-heading .eyebrow{display:none}
+  .services .section-copy{margin-top:9px;font-size:13px}
+  .services .service-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:13px 12px}
+  .services .service-card{padding:16px 14px 12px;border-radius:16px;box-shadow:2px 3px 0 #d9e2cc}
+  .services .service-icon{position:relative;top:auto;right:auto;align-self:flex-start;width:46px;height:44px;margin:0 0 11px}
+  .services .service-icon::before{width:44px;height:41px}
+  .services .service-icon svg{width:32px;height:32px}
+  .services .icon-spark{font-size:20px;right:-4px;top:-4px}
+  .services .service-card h3{margin:0;max-width:none;font-size:18px;line-height:1.5;letter-spacing:-.6px}
+  .services .service-desc{margin:7px 0 13px;font-size:13px;line-height:1.7;max-width:none;color:#756d60}
+  .services .service-button{font-size:13px;min-height:44px;padding:10px 0 0;gap:6px;line-height:1.5}
+  .services .service-button svg{width:16px;height:16px}
+  .services .service-card-wide{grid-column:1/-1;display:grid;grid-template-columns:46px minmax(0,1fr);column-gap:12px}
+  .services .service-card-wide .service-icon{grid-column:1;grid-row:1/3;margin:0;align-self:center}
+  .services .service-card-wide h3,.services .service-card-wide .service-desc{grid-column:2}
+  .services .service-card-wide .service-desc{margin-bottom:10px}
+  .services .service-card-wide .service-button{grid-column:1/-1;margin-top:0}
+  .services .services-note{margin-top:18px;font-size:12px;line-height:1.7}
+  .promise--compact{padding:18px 0}
+  .promise--compact .promise-items{flex-wrap:nowrap;gap:12px;justify-content:space-between}
+  .promise--compact .promise-item{font-size:11px;flex:0 1 auto;gap:4px;white-space:nowrap}
+  .promise--compact .promise-item svg{width:16px;height:16px}
+  .compact-links{padding:26px 0 24px}
+  .compact-links .about-layout{grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+  .compact-links .about-teaser,.compact-links .journal-card{padding:18px 13px 15px;border-radius:16px}
+  .compact-link-icon{margin:3px 0 14px}
+  .compact-links h3{font-size:17px;line-height:1.5;letter-spacing:-.65px}
+  .compact-links .about-copy,.compact-links .journal-description{font-size:13px;line-height:1.65;margin:7px 0 15px}
+  .compact-links .btn{font-size:13px;min-height:44px;padding:9px 8px;gap:5px}
+  .compact-links .btn svg{width:14px;height:14px}
+  .compact-footer .footer-top{gap:12px}
+  .compact-footer .footer-links{gap:8px 18px;padding-top:0}
+  .compact-footer .footer-info{font-size:12px;line-height:1.8}
+  .compact-footer .footer-bottom{font-size:10px}
+  main{padding-bottom:0}
+  .back-top{display:none}
+  .ek-pwa-panel{margin-top:15px;padding:13px 12px}
+  .ek-pwa-install{flex-direction:row;align-items:center;gap:10px}
+  .ek-pwa-title{font-size:13px;line-height:1.7}
+  .ek-pwa-copy{display:none}
+  .ek-pwa-install .ek-pwa-button{width:auto;min-width:104px;min-height:44px;font-size:12px;padding:10px 9px}
+  .ek-pwa-status{font-size:11px;line-height:1.7;margin-top:8px}
+}
+@media(max-width:350px){
+  .services .service-card{padding:14px 12px 11px}
+  .services .service-card h3{font-size:17px}
+  .compact-links .about-teaser,.compact-links .journal-card{padding-left:11px;padding-right:11px}
+  .compact-links h3{font-size:16px}
+  .promise--compact .promise-items{gap:6px}
+}
