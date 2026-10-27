@@ -1,7 +1,7 @@
 /* Generated as sw.js by build_pwa_release.py. Change CACHE_VERSION on manual releases. */
 'use strict';
-const CACHE_VERSION = 'a4f913cbfba2b634';
-const PRECACHE = ["./", "about.html", "assets/ekclean-women-owned-preview.webp", "assets/ekclean-women-owned-public.pdf", "assets/fonts/font-d859571147368d97.woff2", "assets/fonts/font-eb97f61a404b97d5.woff2", "assets/fonts/font-fd11386d021e1c2c.woff2", "assets/illustrations/hero-woman-40s.webp", "assets/illustrations/image-1.webp", "assets/illustrations/image-2.webp", "assets/illustrations/image-3.webp", "assets/illustrations/image-4.webp", "assets/illustrations/image-5.webp", "icons/apple-touch-icon.png", "icons/favicon-32.png", "icons/icon-192.png", "icons/icon-512.png", "icons/icon-maskable-512.png", "index.html", "logo.svg", "manifest.json", "offline.html", "pwa.css", "pwa.js", "styles/fonts.css", "styles/mobile-compact.css", "styles/tailwind.css"];
+const CACHE_VERSION = 'fe6ad235382ee5ce';
+const PRECACHE = ["./", "about.html", "assets/ekclean-women-owned-preview.webp", "assets/ekclean-women-owned-public.pdf", "assets/fonts/font-d859571147368d97.woff2", "assets/fonts/font-eb97f61a404b97d5.woff2", "assets/fonts/font-fd11386d021e1c2c.woff2", "assets/illustrations/hero-woman-40s.webp", "assets/illustrations/hero-woman-50s.webp", "assets/illustrations/image-1.webp", "assets/illustrations/image-2.webp", "assets/illustrations/image-3.webp", "assets/illustrations/image-4.webp", "assets/illustrations/image-5.webp", "icons/apple-touch-icon.png", "icons/favicon-32.png", "icons/icon-192.png", "icons/icon-512.png", "icons/icon-maskable-512.png", "index.html", "logo.svg", "manifest.json", "offline.html", "pwa.css", "pwa.js", "styles/fonts.css", "styles/mobile-compact.css", "styles/tailwind.css"];
 const SCOPE_URL = new URL(self.registration.scope);
 const CACHE_PREFIX = 'ekclean-pwa-' + encodeURIComponent(SCOPE_URL.pathname) + '-';
 const CACHE_NAME = CACHE_PREFIX + CACHE_VERSION;
