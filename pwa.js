@@ -10,7 +10,7 @@
   const panel = document.createElement('section');
   panel.className = 'ek-pwa-panel';
   panel.setAttribute('aria-label', '홈 화면 설치와 앱 업데이트');
-  panel.innerHTML = '<div class="ek-pwa-install"><div><p class="ek-pwa-title">이케이클린을 홈 화면에서 만나세요.</p><p class="ek-pwa-copy">앱 아이콘을 누르면 뽀송한 일상으로 바로 연결돼요.</p></div><button type="button" class="ek-pwa-button" id="ekPwaInstall">홈 화면에 추가</button></div><p class="ek-pwa-status" id="ekPwaStatus" role="status">첫 방문 시 화면을 저장하면 오프라인에서도 볼 수 있어요.</p><div class="ek-pwa-update" id="ekPwaUpdate" hidden><p>새 버전이 준비됐어요. 작성 중인 문의 내용은 먼저 복사해 주세요.</p><button type="button" class="ek-pwa-button" id="ekPwaApplyUpdate">새 버전 적용</button></div>';
+  panel.innerHTML = '<div class="ek-pwa-install"><div><p class="ek-pwa-title">홈 화면에서도 만나요.</p><p class="ek-pwa-copy">앱 아이콘을 누르면 뽀송한 일상으로 바로 연결돼요.</p></div><button type="button" class="ek-pwa-button" id="ekPwaInstall">홈 화면에 추가</button></div><p class="ek-pwa-status" id="ekPwaStatus" role="status">첫 방문 시 화면을 저장하면 오프라인에서도 볼 수 있어요.</p><div class="ek-pwa-update" id="ekPwaUpdate" hidden><p>새 버전이 준비됐어요. 작성 중인 문의 내용은 먼저 복사해 주세요.</p><button type="button" class="ek-pwa-button" id="ekPwaApplyUpdate">새 버전 적용</button></div>';
   const footer = document.querySelector('.site-footer .container') || document.querySelector('main') || document.body;
   footer.appendChild(panel);
   const installRow = panel.querySelector('.ek-pwa-install');
